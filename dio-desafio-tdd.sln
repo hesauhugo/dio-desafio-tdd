@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dio-desafio-tdd", "dio-desafio-tdd.csproj", "{9E00B292-1BF6-495A-BBC8-3BD39F2529C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dio-desafio-tdd", "dio-desafio-tdd\dio-desafio-tdd.csproj", "{9E00B292-1BF6-495A-BBC8-3BD39F2529C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dio-desafio-tdd.test", "dio-desafio-tdd.test\dio-desafio-tdd.test.csproj", "{386A7EE2-9F9C-478A-8405-C057843F5109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dio-desafio-tdd.Tests", "dio-desafio-tdd.test\dio-desafio-tdd.Tests.csproj", "{386A7EE2-9F9C-478A-8405-C057843F5109}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
