@@ -47,6 +47,9 @@ namespace dio_desafio_tdd.Tests
         [InlineData(new int[] { 2, 4, 5, 7, 1, 2, 3, 6 }, 0, 7)]
         [InlineData(new int[] { 3, 4, 6, 1, 2, 5 }, 0, 5)]
         [InlineData(new int[] { 8, 10, 16, 1, 3, 9 }, 0, 5)]
+        [InlineData(new int[] { 5, 2, 4, 6, 1, 3 },0,5)]
+        [InlineData(new int[] { 9, 8, 7, 6, 5, 4, 3, 2, 1 },0,8)]
+        [InlineData(new int[] { 10, 4, 1, 2, 3, 5, 9, 7, 8, 6 },0,9)]
         public void ArranjoDesordenado_OrdenarPeloMergeSort_DeveSerValido(int[] arranjoDesordenado, int p, int r)
         {
             //Arrange
